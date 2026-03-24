@@ -1,0 +1,8 @@
+{
+  "people": 2,
+  "days": 7,
+  "daily_calories": 2000,
+  "allergens": ["peanuts", "shellfish"],
+  "budget_usd": 110,
+  "pantry": ["rice", "lentils", "frozen spinach"]
+}
