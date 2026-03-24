@@ -164,5 +164,5 @@ MIT
 
 👨‍💻 Author
 
-Built as a real-world AI agent example demonstrating modern prompt engineering and agent design patterns.
+Built by Andres R. Bucheli as a real-world AI agent example demonstrating modern prompt engineering and agent design patterns.
 
