@@ -47,27 +47,35 @@ meal-planner-agent/
 ```bash
 git clone https://github.com/your-username/meal-planner-agent.git
 cd meal-planner-agent
-2. Create a virtual environment
+```
+### 2. Create a virtual environment
+```bash
 python -m venv venv
 Activate it:
 
 Mac/Linux
-
 source venv/bin/activate
 
 Windows
-
 venv\Scripts\activate
-3. Install dependencies
-pip install -r requirements.txt
-4. Configure environment variables
+```
 
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Configure environment variables
+```bash
 Create a .env file in the root directory:
 
 OPENAI_API_KEY=your_api_key_here
-▶️ Run the Project
+```
+
+### ▶️ Run the Project
 python main.py
-🧠 How It Works
+
+### 🧠 How It Works
 
 This project implements a self-reflection AI agent pattern, where the system improves its own output iteratively.
 
@@ -88,7 +96,8 @@ No issues remain, or
 Maximum iterations reached
 Grocery List
 Generates a shopping list excluding pantry items.
-📥 Input Example
+
+### 📥 Input Example
 {
   "people": 2,
   "days": 7,
@@ -97,7 +106,8 @@ Generates a shopping list excluding pantry items.
   "budget_usd": 110,
   "pantry": ["rice", "lentils", "frozen spinach"]
 }
-📤 Output Example
+
+### 📤 Output Example
 Meal Plan
 {
   "menu": [
@@ -120,18 +130,21 @@ Grocery List
     }
   ]
 }
-🛠 Tech Stack
+
+### 🛠 Tech Stack
 Python
 OpenAI API
 JSON-based prompt engineering
-🧩 Architecture
+
+### 🧩 Architecture
 File	Responsibility
 agent.py	Core agent loop and orchestration
 prompts.py	Prompt generation (separation of concerns)
 schemas.py	JSON output schema definitions
 main.py	Entry point
 data/	Sample inputs
-💡 Design Pattern
+
+### 💡 Design Pattern
 
 This project uses a reflection-based agent architecture:
 
@@ -142,13 +155,14 @@ This project uses a reflection-based agent architecture:
 
 This is a common real-world AI agent pattern used in production systems.
 
-🧪 Best Practices Used
+### 🧪 Best Practices Used
 Deterministic outputs (seed + temperature=0)
 JSON schema enforcement
 Prompt modularization
 Separation of concerns
 Iterative refinement loop
-🚀 Future Improvements
+
+### 🚀 Future Improvements
 ✅ Add schema validation with Pydantic
 🌐 Expose as FastAPI API
 ⚛️ Connect to a React frontend
@@ -159,7 +173,8 @@ Iterative refinement loop
 Always validate LLM outputs in production
 Costs depend on OpenAI API usage
 Results may vary depending on prompt tuning
-📄 License
+
+### 📄 License
 
 MIT
 
