@@ -18,17 +18,17 @@ An AI-powered meal planning agent that generates weekly dinner plans, critiques 
 ## 📁 Project Structure
 
 
+```bash
 meal-planner-agent/
-│
 ├── app/
-│ ├── init.py
-│ ├── agent.py
-│ ├── prompts.py
-│ ├── schemas.py
-│ └── utils.py
+│   ├── __init__.py
+│   ├── agent.py
+│   ├── prompts.py
+│   ├── schemas.py
+│   └── utils.py
 │
 ├── data/
-│ └── sample_input.json
+│   └── sample_input.json
 │
 ├── .env.example
 ├── .gitignore
