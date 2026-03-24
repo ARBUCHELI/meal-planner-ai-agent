@@ -38,6 +38,7 @@ meal-planner-agent/
 
 
 ---
+```
 
 ## ⚙️ Setup
 
